@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bodata-calon-karyawan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35a61a4ea2dc5de52aa4d41e3b6232dbbccb2cc3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2cf327fd8f7a7931298b493238f1a733f918268")]
 [assembly: System.Reflection.AssemblyProductAttribute("bodata-calon-karyawan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bodata-calon-karyawan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
