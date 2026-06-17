@@ -1,0 +1,163 @@
+﻿@model bodata_calon_karyawan.Models.ViewModels.BiodataFormVM
+
+<div class="card shadow-sm border-0 mb-4">
+
+    <div class="card-header bg-secondary text-white d-flex justify-content-between align-items-center">
+
+        <h5 class="mb-0">
+            💼 Riwayat Pekerjaan
+        </h5>
+
+        <button type="button"
+                class="btn btn-success btn-sm"
+                onclick="tambahPekerjaan()">
+
+            + Tambah Pekerjaan
+
+        </button>
+
+    </div>
+
+    <div class="card-body">
+
+        <div class="table-responsive">
+
+            <table class="table table-bordered align-middle">
+
+                <thead class="table-light">
+
+                    <tr>
+
+                        <th width="35%">Nama Perusahaan</th>
+
+                        <th width="25%">Posisi Terakhir</th>
+
+                        <th width="20%">Pendapatan Terakhir</th>
+
+                        <th width="10%">Tahun</th>
+
+                        <th width="10%">Aksi</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="pekerjaanBody">
+
+                    @if (Model.PekerjaanList.Count == 0)
+                    {
+                        <tr>
+
+                            <td>
+
+                                <input name="PekerjaanList[0].NamaPerusahaan"
+                                       class="form-control">
+
+                            </td>
+
+                            <td>
+
+                                <input name="PekerjaanList[0].PosisiTerakhir"
+                                       class="form-control">
+
+                            </td>
+
+                            <td>
+
+                                <input name="PekerjaanList[0].PendapatanTerakhir"
+                                       type="number"
+                                       class="form-control">
+
+                            </td>
+
+                            <td>
+
+                                <input name="PekerjaanList[0].Tahun"
+                                       type="number"
+                                       class="form-control">
+
+                            </td>
+
+                            <td class="text-center">
+
+                                <button type="button"
+                                        class="btn btn-danger btn-sm"
+                                        onclick="hapusBaris(this)">
+
+                                    Hapus
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+                    }
+                    else
+                    {
+                        @for (int i = 0; i < Model.PekerjaanList.Count; i++)
+                        {
+                            <tr>
+
+                                <td>
+
+                                    <input name="PekerjaanList[@i].NamaPerusahaan"
+                                           value="@Model.PekerjaanList[i].NamaPerusahaan"
+                                           class="form-control">
+
+                                </td>
+
+                                <td>
+
+                                    <input name="PekerjaanList[@i].PosisiTerakhir"
+                                           value="@Model.PekerjaanList[i].PosisiTerakhir"
+                                           class="form-control">
+
+                                </td>
+
+                                <td>
+
+                                    <input name="PekerjaanList[@i].PendapatanTerakhir"
+                                           value="@Model.PekerjaanList[i].PendapatanTerakhir"
+                                           type="number"
+                                           class="form-control">
+
+                                </td>
+
+                                <td>
+
+                                    <input name="PekerjaanList[@i].Tahun"
+                                           value="@Model.PekerjaanList[i].Tahun"
+                                           type="number"
+                                           class="form-control">
+
+                                </td>
+
+                                <td class="text-center">
+
+                                    <button type="button"
+                                            class="btn btn-danger btn-sm"
+                                            onclick="hapusBaris(this)">
+
+                                        Hapus
+
+                                    </button>
+
+                                </td>
+
+                            </tr>
+                        }
+                    }
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <small class="text-muted">
+            Maksimal 4 riwayat pekerjaan.
+        </small>
+
+    </div>
+
+</div>

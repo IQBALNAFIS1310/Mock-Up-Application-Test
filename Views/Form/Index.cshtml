@@ -1,0 +1,790 @@
+﻿@model bodata_calon_karyawan.Models.ViewModels.BiodataFormVM
+
+@{
+    ViewData["Title"] = "Biodata Saya";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+
+    <title>Biodata Saya</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+          rel="stylesheet" />
+
+    <link href="~/css/index.css"
+          rel="stylesheet" />
+
+</head>
+
+<body>
+
+<div class="container py-5">
+
+    <div class="card shadow-lg border-0 rounded-4">
+
+        <!-- HEADER -->
+
+        <div class="card-header bg-primary text-white p-4">
+
+            <div class="d-flex justify-content-between align-items-center">
+
+                <div>
+
+                    <h2 class="fw-bold mb-1">
+
+                        <i class="bi bi-person-vcard-fill me-2"></i>
+
+                        Biodata Calon Karyawan
+
+                    </h2>
+
+                    <div class="opacity-75">
+
+                        Portal Rekrutmen PT. Maju Bersama
+
+                    </div>
+
+                </div>
+
+                <div class="text-end">
+
+                    @if (Model == null)
+                    {
+                        <span class="badge bg-warning text-dark fs-6 px-3 py-2">
+
+                            <i class="bi bi-exclamation-circle-fill"></i>
+
+                            Belum Mengisi Biodata
+
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-success fs-6 px-3 py-2">
+
+                            <i class="bi bi-check-circle-fill"></i>
+
+                            Biodata Sudah Terkirim
+
+                        </span>
+                    }
+
+                    <br />
+
+                    <a asp-controller="Auth"
+                       asp-action="Logout"
+                       class="btn btn-outline-light mt-3">
+
+                        <i class="bi bi-box-arrow-right"></i>
+
+                        Logout
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- BODY -->
+
+        <div class="card-body p-5">
+
+            @if (Model == null)
+            {
+
+                <div class="text-center py-5">
+
+                    <i class="bi bi-person-lines-fill display-1 text-primary"></i>
+
+                    <h3 class="fw-bold mt-4">
+
+                        Selamat Datang
+
+                    </h3>
+
+                    <p class="text-muted fs-5">
+
+                        Anda belum pernah mengisi biodata pelamar.
+
+                        Silakan lengkapi formulir terlebih dahulu
+                        sebelum mengikuti proses seleksi.
+
+                    </p>
+
+                    <a asp-action="Create"
+                       class="btn btn-primary btn-lg px-5 mt-3">
+
+                        <i class="bi bi-pencil-square"></i>
+
+                        Isi Biodata
+
+                    </a>
+
+                </div>
+                return;
+            }
+    <div class="card border-0 shadow-sm rounded-4 mb-4">
+
+        <div class="card-header bg-white py-3">
+
+            <h4 class="fw-bold text-primary mb-0">
+
+                <i class="bi bi-person-fill me-2"></i>
+
+                Data Pribadi
+
+            </h4>
+
+        </div>
+
+        <div class="card-body">
+
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="text-muted">Posisi Dilamar</label>
+
+                    <div class="fw-semibold fs-5">
+                        @Model.Biodata.PosisiDilamar
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="text-muted">Nama Lengkap</label>
+
+                    <div class="fw-semibold fs-5">
+                        @Model.Biodata.Nama
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="text-muted">Nomor KTP</label>
+
+                    <div class="fw-semibold">
+                        @Model.Biodata.NoKtp
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="text-muted">Jenis Kelamin</label>
+
+                    <div class="fw-semibold">
+                        @Model.Biodata.JenisKelamin
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="text-muted">Tempat Lahir</label>
+
+                    <div class="fw-semibold">
+                        @Model.Biodata.TempatLahir
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="text-muted">Tanggal Lahir</label>
+
+                    <div class="fw-semibold">
+                        @Model.Biodata.TanggalLahir?.ToString("dd MMMM yyyy")
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="text-muted">Agama</label>
+
+                    <div class="fw-semibold">
+                        @Model.Biodata.Agama
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="text-muted">Golongan Darah</label>
+
+                    <div class="fw-semibold">
+                        @Model.Biodata.GolonganDarah
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="text-muted">Status</label>
+
+                    <div class="fw-semibold">
+                        @Model.Biodata.Status
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="text-muted">Email</label>
+
+                    <div class="fw-semibold">
+                        @Model.Biodata.Email
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="text-muted">Nomor Telepon</label>
+
+                    <div class="fw-semibold">
+                        @Model.Biodata.NoTelp
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="text-muted">Kontak Darurat</label>
+
+                    <div class="fw-semibold">
+                        @Model.Biodata.KontakDarurat
+                    </div>
+
+                </div>
+
+                <div class="col-12 mb-3">
+
+                    <label class="text-muted">Alamat KTP</label>
+
+                    <div class="border rounded-3 p-3 bg-light">
+                        @Model.Biodata.AlamatKtp
+                    </div>
+
+                </div>
+
+                <div class="col-12 mb-3">
+
+                    <label class="text-muted">Alamat Tinggal</label>
+
+                    <div class="border rounded-3 p-3 bg-light">
+                        @Model.Biodata.AlamatTinggal
+                    </div>
+
+                </div>
+
+                <div class="col-12 mb-3">
+
+                    <label class="text-muted">Skill</label>
+
+                    <div class="border rounded-3 p-3 bg-light">
+                        @Model.Biodata.Skill
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="text-muted">
+
+                        Bersedia Ditempatkan
+
+                    </label>
+
+                    <div class="fw-semibold">
+
+                        @if (Model.Biodata.BersediaDitempatkan)
+                        {
+                            <span class="badge bg-success px-3 py-2">
+
+                                <i class="bi bi-check-circle-fill"></i>
+
+                                Bersedia
+
+                            </span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger px-3 py-2">
+
+                                <i class="bi bi-x-circle-fill"></i>
+
+                                Tidak Bersedia
+
+                            </span>
+                        }
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6 mb-3">
+
+                    <label class="text-muted">
+
+                        Gaji yang Diharapkan
+
+                    </label>
+
+                    <div class="fw-bold text-success fs-5">
+
+                        Rp @String.Format("{0:N0}", Model.Biodata.GajiDiharapkan)
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card border-0 shadow-sm rounded-4 mb-4">
+
+        <div class="card-header bg-white py-3">
+
+            <h4 class="fw-bold text-primary mb-0">
+
+                <i class="bi bi-mortarboard-fill me-2"></i>
+
+                Riwayat Pendidikan
+
+            </h4>
+
+        </div>
+
+        <div class="card-body p-0">
+
+            @if (Model.PendidikanList != null && Model.PendidikanList.Any())
+            {
+                <div class="table-responsive">
+
+                    <table class="table table-hover align-middle mb-0">
+
+                        <thead class="table-light">
+
+                            <tr>
+
+                                <th class="ps-4">Jenjang</th>
+
+                                <th>Institusi</th>
+
+                                <th>Jurusan</th>
+
+                                <th>Tahun Lulus</th>
+
+                                <th>IPK</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            @foreach (var item in Model.PendidikanList)
+                            {
+                                <tr>
+
+                                    <td class="ps-4 fw-semibold">
+                                        @item.Jenjang
+                                    </td>
+
+                                    <td>
+                                        @item.NamaInstitusi
+                                    </td>
+
+                                    <td>
+                                        @item.Jurusan
+                                    </td>
+
+                                    <td>
+                                        @item.TahunLulus
+                                    </td>
+
+                                    <td>
+
+                                        <span class="badge bg-primary">
+
+                                            @item.Ipk
+
+                                        </span>
+
+                                    </td>
+
+                                </tr>
+                            }
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+            }
+            else
+            {
+                <div class="text-center py-5">
+
+                    <i class="bi bi-mortarboard display-4 text-secondary"></i>
+
+                    <h5 class="mt-3">
+
+                        Belum Ada Data Pendidikan
+
+                    </h5>
+
+                    <p class="text-muted mb-0">
+
+                        Data pendidikan belum tersedia.
+
+                    </p>
+
+                </div>
+            }
+
+        </div>
+
+    </div>
+
+    <div class="card border-0 shadow-sm rounded-4 mb-4">
+
+        <div class="card-header bg-white py-3">
+
+            <h4 class="fw-bold text-primary mb-0">
+
+                <i class="bi bi-award-fill me-2"></i>
+
+                Riwayat Pelatihan
+
+            </h4>
+
+        </div>
+
+        <div class="card-body p-0">
+
+            @if (Model.PelatihanList != null && Model.PelatihanList.Any())
+            {
+                <div class="table-responsive">
+
+                    <table class="table table-hover align-middle mb-0">
+
+                        <thead class="table-light">
+
+                            <tr>
+
+                                <th class="ps-4">Nama Pelatihan</th>
+
+                                <th>Sertifikat</th>
+
+                                <th>Tahun</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            @foreach (var item in Model.PelatihanList)
+                            {
+                                <tr>
+
+                                    <td class="ps-4 fw-semibold">
+
+                                        @item.NamaKursus
+
+                                    </td>
+
+                                    <td>
+
+                                        @if (item.Sertifikat)
+                                        {
+                                            <span class="badge bg-success">
+
+                                                <i class="bi bi-patch-check-fill me-1"></i>
+
+                                                Ada
+
+                                            </span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-secondary">
+
+                                                <i class="bi bi-x-circle-fill me-1"></i>
+
+                                                Tidak Ada
+
+                                            </span>
+                                        }
+
+                                    </td>
+
+                                    <td>
+
+                                        @item.Tahun
+
+                                    </td>
+
+                                </tr>
+                            }
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+            }
+            else
+            {
+                <div class="text-center py-5">
+
+                    <i class="bi bi-award display-4 text-secondary"></i>
+
+                    <h5 class="mt-3">
+
+                        Belum Ada Riwayat Pelatihan
+
+                    </h5>
+
+                    <p class="text-muted mb-0">
+
+                        Data pelatihan belum tersedia.
+
+                    </p>
+
+                </div>
+            }
+
+        </div>
+
+    </div>
+
+    <div class="card border-0 shadow-sm rounded-4 mb-4">
+
+        <div class="card-header bg-white py-3">
+
+            <h4 class="fw-bold text-primary mb-0">
+
+                <i class="bi bi-briefcase-fill me-2"></i>
+
+                Riwayat Pekerjaan
+
+            </h4>
+
+        </div>
+
+        <div class="card-body p-0">
+
+            @if (Model.PekerjaanList != null && Model.PekerjaanList.Any())
+            {
+                <div class="table-responsive">
+
+                    <table class="table table-hover align-middle mb-0">
+
+                        <thead class="table-light">
+
+                            <tr>
+
+                                <th class="ps-4">Perusahaan</th>
+
+                                <th>Posisi</th>
+
+                                <th>Pendapatan Terakhir</th>
+
+                                <th>Tahun</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            @foreach (var item in Model.PekerjaanList)
+                            {
+                                <tr>
+
+                                    <td class="ps-4 fw-semibold">
+
+                                        @item.NamaPerusahaan
+
+                                    </td>
+
+                                    <td>
+
+                                        @item.PosisiTerakhir
+
+                                    </td>
+
+                                    <td>
+
+                                        <span class="badge bg-success fs-6">
+
+                                            Rp @String.Format("{0:N0}", item.PendapatanTerakhir)
+
+                                        </span>
+
+                                    </td>
+
+                                    <td>
+
+                                        @item.Tahun
+
+                                    </td>
+
+                                </tr>
+                            }
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+            }
+            else
+            {
+                <div class="text-center py-5">
+
+                    <i class="bi bi-briefcase display-4 text-secondary"></i>
+
+                    <h5 class="mt-3">
+
+                        Belum Ada Riwayat Pekerjaan
+
+                    </h5>
+
+                    <p class="text-muted mb-0">
+
+                        Data pekerjaan belum tersedia.
+
+                    </p>
+
+                </div>
+            }
+
+        </div>
+
+    </div>
+
+<!-- ====================================== -->
+<!-- INFORMASI STATUS -->
+<!-- ====================================== -->
+
+    <div class="card border-0 shadow-sm rounded-4 mb-4">
+
+        <div class="card-body">
+
+            <div class="row text-center">
+
+                <div class="col-md-4">
+
+                    <i class="bi bi-person-check-fill text-primary fs-1"></i>
+
+                    <h6 class="mt-2 fw-bold">
+
+                        Status Biodata
+
+                    </h6>
+
+                    <span class="badge bg-success px-3 py-2">
+
+                        Sudah Lengkap
+
+                    </span>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <i class="bi bi-calendar-check-fill text-success fs-1"></i>
+
+                    <h6 class="mt-2 fw-bold">
+
+                        Tanggal Pengisian
+
+                    </h6>
+
+                    <span class="text-muted">
+
+                        @DateTime.Now.ToString("dd MMMM yyyy")
+
+                    </span>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <i class="bi bi-shield-check text-warning fs-1"></i>
+
+                    <h6 class="mt-2 fw-bold">
+
+                        Verifikasi
+
+                    </h6>
+
+                    <span class="badge bg-primary px-3 py-2">
+
+                        Menunggu Admin
+
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- ====================================== -->
+<!-- FOOTER -->
+<!-- ====================================== -->
+
+    <div class="text-center text-muted mt-5">
+
+        <hr />
+
+        <small>
+
+            © @DateTime.Now.Year Portal Rekrutmen Calon Karyawan
+
+            <br />
+
+            Seluruh data yang dikirim bersifat rahasia dan hanya digunakan
+            untuk proses seleksi.
+
+        </small>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+    </body>
+
+    </html>

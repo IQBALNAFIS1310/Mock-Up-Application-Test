@@ -1,0 +1,159 @@
+﻿@model bodata_calon_karyawan.Models.ViewModels.BiodataFormVM
+
+<div class="card shadow-sm border-0 mb-4">
+
+    <div class="card-header bg-secondary text-white d-flex justify-content-between align-items-center">
+
+        <h5 class="mb-0">
+            📜 Riwayat Pelatihan
+        </h5>
+
+        <button type="button"
+                class="btn btn-success btn-sm"
+                onclick="tambahPelatihan()">
+
+            + Tambah Pelatihan
+
+        </button>
+
+    </div>
+
+    <div class="card-body">
+
+        <div class="table-responsive">
+
+            <table class="table table-bordered align-middle">
+
+                <thead class="table-light">
+
+                    <tr>
+
+                        <th width="50%">Nama Kursus / Seminar</th>
+
+                        <th width="20%">Sertifikat</th>
+
+                        <th width="20%">Tahun</th>
+
+                        <th width="10%">Aksi</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="pelatihanBody">
+
+                    @if (Model.PelatihanList.Count == 0)
+                    {
+                        <tr>
+
+                            <td>
+                                <input name="PelatihanList[0].NamaKursus"
+                                       class="form-control">
+                            </td>
+
+                            <td>
+
+                                <select name="PelatihanList[0].Sertifikat"
+                                        class="form-select">
+
+                                    <option value="true">Ada</option>
+                                    <option value="false">Tidak</option>
+
+                                </select>
+
+                            </td>
+
+                            <td>
+
+                                <input name="PelatihanList[0].Tahun"
+                                       type="number"
+                                       class="form-control">
+
+                            </td>
+
+                            <td class="text-center">
+
+                                <button type="button"
+                                        class="btn btn-danger btn-sm"
+                                        onclick="hapusBaris(this)">
+
+                                    Hapus
+
+                                </button>
+
+                            </td>
+
+                        </tr>
+                    }
+                    else
+                    {
+                        @for (int i = 0; i < Model.PelatihanList.Count; i++)
+                        {
+                            <tr>
+
+                                <td>
+
+                                    <input name="PelatihanList[@i].NamaKursus"
+                                           value="@Model.PelatihanList[i].NamaKursus"
+                                           class="form-control">
+
+                                </td>
+
+                                <td>
+
+                                    <select name="PelatihanList[@i].Sertifikat"
+                                            class="form-select">
+
+                                        @if (Model.PelatihanList[i].Sertifikat)
+                                        {
+                                            <option value="true" selected>Ada</option>
+                                            <option value="false">Tidak</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="true">Ada</option>
+                                            <option value="false" selected>Tidak</option>
+                                        }
+
+                                    </select>
+
+                                </td>
+
+                                <td>
+
+                                    <input name="PelatihanList[@i].Tahun"
+                                           value="@Model.PelatihanList[i].Tahun"
+                                           type="number"
+                                           class="form-control">
+
+                                </td>
+
+                                <td class="text-center">
+
+                                    <button type="button"
+                                            class="btn btn-danger btn-sm"
+                                            onclick="hapusBaris(this)">
+
+                                        Hapus
+
+                                    </button>
+
+                                </td>
+
+                            </tr>
+                        }
+                    }
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <small class="text-muted">
+            Maksimal 4 riwayat pelatihan.
+        </small>
+
+    </div>
+
+</div>

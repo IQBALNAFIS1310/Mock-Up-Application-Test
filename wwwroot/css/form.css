@@ -1,0 +1,117 @@
+﻿body {
+    background: #f5f7fb;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.card {
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.08);
+}
+
+.card-header {
+    padding: 15px 20px;
+}
+
+    .card-header h4,
+    .card-header h5 {
+        margin: 0;
+        font-weight: 600;
+    }
+
+.form-label {
+    font-weight: 600;
+    color: #444;
+}
+
+.form-control,
+.form-select {
+    border-radius: 8px;
+    min-height: 44px;
+}
+
+    .form-control:focus,
+    .form-select:focus {
+        box-shadow: 0 0 0 .15rem rgba(13,110,253,.2);
+    }
+
+textarea.form-control {
+    min-height: 110px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+    .table thead th {
+        background: #f8f9fa;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 14px;
+    }
+
+    .table tbody td {
+        vertical-align: middle;
+    }
+
+.btn {
+    border-radius: 8px;
+}
+
+.btn-success,
+.btn-primary,
+.btn-danger {
+    font-weight: 600;
+}
+
+.alert {
+    border-radius: 10px;
+}
+
+.input-group-text {
+    font-weight: 600;
+}
+
+.modal-content {
+    border-radius: 14px;
+}
+
+.form-check-input {
+    cursor: pointer;
+}
+
+.form-check-label {
+    cursor: pointer;
+}
+
+.badge {
+    font-size: .85rem;
+}
+
+hr {
+    opacity: .15;
+}
+
+.card:hover {
+    transition: .2s;
+    transform: translateY(-2px);
+}
+
+@media(max-width:768px) {
+
+    .container {
+        padding: 15px;
+    }
+
+    .table {
+        min-width: 900px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

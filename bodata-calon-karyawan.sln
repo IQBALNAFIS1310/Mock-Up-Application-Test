@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bodata-calon-karyawan", "bodata-calon-karyawan.csproj", "{43E3A9ED-B493-45F8-B931-CA0401EF6B44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testing-calon-karyawan-api", "..\testing-calon-karyawan-api\testing-calon-karyawan-api.csproj", "{EFE01C0E-7F18-46FE-A4B9-A506E83BF551}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43E3A9ED-B493-45F8-B931-CA0401EF6B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E3A9ED-B493-45F8-B931-CA0401EF6B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E3A9ED-B493-45F8-B931-CA0401EF6B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E3A9ED-B493-45F8-B931-CA0401EF6B44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFE01C0E-7F18-46FE-A4B9-A506E83BF551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFE01C0E-7F18-46FE-A4B9-A506E83BF551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFE01C0E-7F18-46FE-A4B9-A506E83BF551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFE01C0E-7F18-46FE-A4B9-A506E83BF551}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {837BABFD-16F3-4F3A-B9BE-1B69D997D1FF}
+	EndGlobalSection
+EndGlobal

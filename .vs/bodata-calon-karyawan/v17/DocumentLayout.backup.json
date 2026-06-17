@@ -1,0 +1,663 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\form\\partial\\_datapribadi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\form\\partial\\_datapribadi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\form\\partial\\_skill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\form\\partial\\_skill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\form\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\form\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\form\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\form\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\admin\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\admin\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\form\\partial\\_konfirmasi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\form\\partial\\_konfirmasi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:controllers\\formcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\interface\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:interface\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\services\\formservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:services\\formservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\models\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:models\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\interface\\iformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:interface\\iformservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\wwwroot\\js\\form.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:wwwroot\\js\\form.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\wwwroot\\css\\form.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:wwwroot\\css\\form.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\form\\partial\\_pekerjaan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\form\\partial\\_pekerjaan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\form\\partial\\_pelatihan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\form\\partial\\_pelatihan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\form\\partial\\_pendidikan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\form\\partial\\_pendidikan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\form\\partial\\_petunjuk.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\form\\partial\\_petunjuk.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\models\\db\\biodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:models\\db\\biodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\models\\db\\pekerjaan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:models\\db\\pekerjaan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\models\\db\\pendidikan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:models\\db\\pendidikan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\models\\viewmodels\\biodataformvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:models\\viewmodels\\biodataformvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\models\\db\\pelatihan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:models\\db\\pelatihan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\models\\db\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:models\\db\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\shared\\_adminnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\shared\\_adminnav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFE01C0E-7F18-46FE-A4B9-A506E83BF551}|..\\testing-calon-karyawan-api\\testing-calon-karyawan-api.csproj|c:\\users\\hp\\desktop\\project\\testing-calon-karyawan-api\\testing-calon-karyawan-api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\migrations\\20260616162920_st-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:migrations\\20260616162920_st-database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|c:\\users\\hp\\desktop\\project\\bodata-calon-karyawan\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{43E3A9ED-B493-45F8-B931-CA0401EF6B44}|bodata-calon-karyawan.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 318,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Form\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Create.cshtml",
+              "RelativeToolTip": "Views\\Form\\Create.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAIwGoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T14:06:01.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Form\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Index.cshtml",
+              "RelativeToolTip": "Views\\Form\\Index.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAIkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T17:24:59.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T15:32:29.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Konfirmasi.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Partial\\_Konfirmasi.cshtml",
+              "RelativeDocumentMoniker": "Views\\Form\\Partial\\_Konfirmasi.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Partial\\_Konfirmasi.cshtml",
+              "RelativeToolTip": "Views\\Form\\Partial\\_Konfirmasi.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAkwH8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T16:01:18.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAIwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T16:36:08.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Auth\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Auth\\Index.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T16:37:11.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAADcBAAAAAAAAAAAiwFYBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T16:37:26.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Skill.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Partial\\_Skill.cshtml",
+              "RelativeDocumentMoniker": "Views\\Form\\Partial\\_Skill.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Partial\\_Skill.cshtml",
+              "RelativeToolTip": "Views\\Form\\Partial\\_Skill.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T16:00:19.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_DataPribadi.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Partial\\_DataPribadi.cshtml",
+              "RelativeDocumentMoniker": "Views\\Form\\Partial\\_DataPribadi.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Partial\\_DataPribadi.cshtml",
+              "RelativeToolTip": "Views\\Form\\Partial\\_DataPribadi.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAOsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T15:54:47.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Controllers\\FormController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FormController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Controllers\\FormController.cs",
+              "RelativeToolTip": "Controllers\\FormController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAmwCoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T17:24:33.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T21:25:00.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Admin\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Admin\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Detail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T21:21:43.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Models\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Models\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:48:22.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:48:49.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Services\\AdminService.cs",
+              "RelativeToolTip": "Services\\AdminService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwAMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T21:19:14.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Interface.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Interface\\Interface.cs",
+              "RelativeDocumentMoniker": "Interface\\Interface.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Interface\\Interface.cs",
+              "RelativeToolTip": "Interface\\Interface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T21:18:39.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAUwGoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T16:35:38.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Services\\FormService.cs",
+              "RelativeDocumentMoniker": "Services\\FormService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Services\\FormService.cs",
+              "RelativeToolTip": "Services\\FormService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAUwGwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T07:51:47.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IFormService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Interface\\IFormService.cs",
+              "RelativeDocumentMoniker": "Interface\\IFormService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Interface\\IFormService.cs",
+              "RelativeToolTip": "Interface\\IFormService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T07:53:15.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "form.css",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\wwwroot\\css\\form.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\form.css",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\wwwroot\\css\\form.css",
+              "RelativeToolTip": "wwwroot\\css\\form.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-17T16:02:37.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "form.js",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\wwwroot\\js\\form.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\form.js",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\wwwroot\\js\\form.js",
+              "RelativeToolTip": "wwwroot\\js\\form.js",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAIwNEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-17T15:56:57.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Pekerjaan.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Partial\\_Pekerjaan.cshtml",
+              "RelativeDocumentMoniker": "Views\\Form\\Partial\\_Pekerjaan.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Partial\\_Pekerjaan.cshtml",
+              "RelativeToolTip": "Views\\Form\\Partial\\_Pekerjaan.cshtml",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAAAKIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T15:59:15.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Pelatihan.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Partial\\_Pelatihan.cshtml",
+              "RelativeDocumentMoniker": "Views\\Form\\Partial\\_Pelatihan.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Partial\\_Pelatihan.cshtml",
+              "RelativeToolTip": "Views\\Form\\Partial\\_Pelatihan.cshtml",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAIwJ4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T15:57:47.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Pendidikan.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Partial\\_Pendidikan.cshtml",
+              "RelativeDocumentMoniker": "Views\\Form\\Partial\\_Pendidikan.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Partial\\_Pendidikan.cshtml",
+              "RelativeToolTip": "Views\\Form\\Partial\\_Pendidikan.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T15:55:42.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Petunjuk.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Partial\\_Petunjuk.cshtml",
+              "RelativeDocumentMoniker": "Views\\Form\\Partial\\_Petunjuk.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Form\\Partial\\_Petunjuk.cshtml",
+              "RelativeToolTip": "Views\\Form\\Partial\\_Petunjuk.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-17T15:53:52.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Pendidikan.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Models\\Db\\Pendidikan.cs",
+              "RelativeDocumentMoniker": "Models\\Db\\Pendidikan.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Models\\Db\\Pendidikan.cs",
+              "RelativeToolTip": "Models\\Db\\Pendidikan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:45:44.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BiodataFormVM.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Models\\ViewModels\\BiodataFormVM.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\BiodataFormVM.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Models\\ViewModels\\BiodataFormVM.cs",
+              "RelativeToolTip": "Models\\ViewModels\\BiodataFormVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T07:09:39.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Pekerjaan.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Models\\Db\\Pekerjaan.cs",
+              "RelativeDocumentMoniker": "Models\\Db\\Pekerjaan.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Models\\Db\\Pekerjaan.cs",
+              "RelativeToolTip": "Models\\Db\\Pekerjaan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:46:30.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Pelatihan.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Models\\Db\\Pelatihan.cs",
+              "RelativeDocumentMoniker": "Models\\Db\\Pelatihan.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Models\\Db\\Pelatihan.cs",
+              "RelativeToolTip": "Models\\Db\\Pelatihan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:46:09.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Biodata.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Models\\Db\\Biodata.cs",
+              "RelativeDocumentMoniker": "Models\\Db\\Biodata.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Models\\Db\\Biodata.cs",
+              "RelativeToolTip": "Models\\Db\\Biodata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:45:20.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Models\\Db\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\Db\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Models\\Db\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\Db\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T15:44:13.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_AdminNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Shared\\_AdminNav.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AdminNav.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Shared\\_AdminNav.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AdminNav.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T17:53:09.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T16:27:20.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T16:28:43.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-16T15:23:25.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "testing-calon-karyawan-api.http",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\testing-calon-karyawan-api\\testing-calon-karyawan-api.http",
+              "RelativeDocumentMoniker": "..\\testing-calon-karyawan-api\\testing-calon-karyawan-api.http",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\testing-calon-karyawan-api\\testing-calon-karyawan-api.http",
+              "RelativeToolTip": "..\\testing-calon-karyawan-api\\testing-calon-karyawan-api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-06-16T17:01:39.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20260616162920_st-database.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Migrations\\20260616162920_st-database.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260616162920_st-database.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\Migrations\\20260616162920_st-database.cs",
+              "RelativeToolTip": "Migrations\\20260616162920_st-database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-16T16:29:20.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\project\\bodata-calon-karyawan\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-16T15:51:29.367Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 111,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
